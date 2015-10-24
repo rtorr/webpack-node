@@ -1,0 +1,16 @@
+{
+  "name": "webpack-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack && mocha ./build/tests.js",
+    "webpack": "webpack"
+  },
+  "author": "rtorr <rtorruellas@gmail.com> (http://rtorr.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "webpack": "^1.12.2"
+  }
+}
